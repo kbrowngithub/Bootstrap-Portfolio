@@ -1,0 +1,20 @@
+/* Some custom styles */
+.demo-content {
+    padding: 15px;
+    font-size: 18px;
+    background: #dbdfe5;
+    margin-bottom: 15px;
+}
+
+.demo-content.bg-alt {
+    background: #abb1b8;
+}
+
+body {
+    background: url("../images/concrete-texture.png") no-repeat center center fixed;
+    /* background: url("../images/gerson-repreza-Mc-bejHZ9po-unsplash.jpg") no-repeat center center fixed; */
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+}
