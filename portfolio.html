@@ -4,67 +4,68 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>"KB Bootstrap Portfolio"</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>"Kevin Brown's Basic Portfolio"</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1 id="name">Kevin Brown</h1>
-        <nav id="navbar">
-            <a href="index.html">About&nbsp;&nbsp;&nbsp;</a> |
-            <a href="portfolio.html">&nbsp;&nbsp;&nbsp;Portfolio&nbsp;&nbsp;&nbsp;</a> |
-            <a href="contact.html">&nbsp;&nbsp;&nbsp;Contact</a>
-        </nav>
+    <header class="row">
+        <div class="col-sm-12 col-md-6 text-sm-center text-md-left">
+            <h1 id="name">Kevin Brown</h1>
+        </div>
+        <div class="col-sm-12 col-md-6 text-sm-center text-md-left">
+
+            <nav id="navbar">
+                <a href="index.html">About&nbsp;&nbsp;&nbsp;</a> |
+                <a href="portfolio.html">&nbsp;&nbsp;&nbsp;Portfolio&nbsp;&nbsp;&nbsp;</a> |
+                <a href="contact.html">&nbsp;&nbsp;&nbsp;Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <main id="wrapper">
-        <content id="pcontent">
-            <caption>
-                <h1 id="subtitle">Portfolio</h1>
+    <main id="wrapper" class="row">
+        <content id="content" class="col-md-12">
+            <caption class="row">
+                <div class="col-sm-12">
+                    <h1 id="subtitle">About Me</h1>
+                </div>
+                <hr />
             </caption>
-            <hr />
-
-            <div class="port1">
-                <img id="port1" src="https://via.placeholder.com/180X140">
-                <div class="text-block1">Hangman
-                   
+            <div class="row">
+                <div class="port1 col-sm-3">
+                    <img id="port1" src="https://via.placeholder.com/180X140">
+                    <div class="text-block1">Hangman</div>
+                </div>
+            
+                <div class="port2 col-sm-3">
+                    <img id="port2" src="https://via.placeholder.com/180X140">
+                    <div class="text-block2">Rutgers Info Widget</div>
                 </div>
             </div>
-
-            <div class="port2">
-                <img id="port2" src="https://via.placeholder.com/180X140">
-                <div class="text-block2">Rutgers Info Widget
-                   
+            <div class="row">
+                <div class="port3 col-sm-3">
+                    <img id="port3" src="https://via.placeholder.com/180X140">
+                    <div class="text-block3">Trivia Game</div>
+                </div>
+            
+                <div class="port4 col-sm-3">
+                    <img id="port4" src="https://via.placeholder.com/180X140">
+                    <div class="text-block4">RPG Game</div>
                 </div>
             </div>
-
-            <div class="port3">
-                <img id="port3" src="https://via.placeholder.com/180X140">
-                <div class="text-block3">Trivia Game
-                    
+            <div class="row">
+                <div class="port5 col-sm-3">
+                    <img id="port5" src="https://via.placeholder.com/180X140">
+                    <div class="text-block5">Rock Paper Scissors</div>
                 </div>
             </div>
-
-            <div class="port4">
-                <img id="port4" src="https://via.placeholder.com/180X140">
-                <div class="text-block4">RPG Game
-                    
-                </div>
-            </div>
-
-            <div class="port5">
-                <img id="port5" src="https://via.placeholder.com/180X140">
-                <div class="text-block5">Rock Paper Scissors
-                    
-                </div>
-            </div>
-
         </content>
     </main>
 
-    <footer id="footer">
-        <p id="copyright">Copyright &copy;</p>
+    <footer class="row">
+        <div class="copyright col-sm-12">
+            Copyright &copy;
+        </div>
     </footer>
 </body>
 

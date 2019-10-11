@@ -1,94 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+
+<html lang="en-us">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>KB Bootstrap Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <style>
-        
-    </style>
 </head>
 
 <body>
-    <div class="container ">
-        <!-- Header Row -->
-        <div class="row">
-            <div class="col-sm-12 col-md-6 text-sm-center text-md-left">
-                <div class="demo-content text-center">
-                    <h1>Kevin Brown</h1>
-                </div>
-            </div>
-            
-            <div class="col-sm col-md-6 text-sm-center text-md-right">
+    <header class="row">
+        <div class="col-sm-12 col-md-6 text-sm-center text-md-left">
+            <h1 id="name">Kevin Brown</h1>
+        </div>
+        <div class="col-sm-12 col-md-6 text-sm-center text-md-left">
+
+            <nav id="navbar">
                 <a href="index.html">About&nbsp;&nbsp;&nbsp;</a> |
                 <a href="portfolio.html">&nbsp;&nbsp;&nbsp;Portfolio&nbsp;&nbsp;&nbsp;</a> |
                 <a href="contact.html">&nbsp;&nbsp;&nbsp;Contact</a>
-            </div>
+            </nav>
         </div>
+    </header>
 
-        <div class="row"> <!-- Content Row -->
-            <div class="col-sm-12">
-                <div class="row"> <!-- Title Row -->
-                    <div class="col-sm-5">
-                        <div class="demo-content text-center">
-                            <h1>About Me</h1>
-                        </div>
-                    </div>
+    <main id="wrapper" class="row">
+        <content id="content" class="col-md-12">
+            <caption class="row">
+                <div class="col-sm-12">
+                    <h1 id="subtitle">About Me</h1>
                 </div>
-                <div class="row"> <!-- Content Row -->
-                    <div class="col-sm-12">
-                        <!-- <img class="rounded px-md-4 mt-1 float-sm-none float-md-left bg-alt" alt="Kevin Brown pic" src="https://via.placeholder.com/200X200"> -->
-                        <img class="rounded px-md-4 mt-1 float-sm-none float-md-left bg-alt" alt="Kevin Brown pic" src="images/SelfieSmallRotated.jpg">
-                        <!-- <div class="demo-content float-md-left bg-alt">img</div> -->
-                        <div class="demo-content">
-                            <p>I began my career in the software biz back in 1991.</p>
-                        
-                            <p>I worked as a Software Configuration Manager and Unix/QNX admin for Beckman Instruments and went to school at
-                                night working towards a degree in Computer Science. I
-                                eventually graduated from California State University of Fullerton, CA with my BS in CS and immediatlely went to
-                                work for TRW as a developer integrating satelite
-                                telemetry feeds into a health and monitoring system. In 1996 I became a member of the development team at
-                                Schriever AFB working on the user interface of the
-                                war gaming test bed which emulated the systems used in the Cheyene Mountain facility.</p>
-                        
-                            <p>In 1997 I hired on with MCI in Colorado Springs and worked in the telecommunications field. My team created a
-                                voice recognition platform which
-                                used the Nuance speech engine. We created custom speech applications using Java Servlets, VoiceXML/GRXML/CSS,
-                                and javascript.</p>
-                        
-                            <p>MCI eventually became part of Verizon and after almost 18 years I was involved in a RIFF. Two months later RELX
-                                Group hired me as their Interactive Voice
-                                Response (IVR) expert where I assumed responsibility for all of their self service IVR applications and
-                                integrations working with Java on the
-                                Avaya platform. We eventually migrated the applications from the in-house Avaya platform to the inContact cloud
-                                based platform.
-                                RELX Group then made the decision to move most of the inContact platform support to the Philippines and, after 4
-                                years with the company,
-                                I was again involed in a RIFF.</p>
-                        
-                            <p>I then made the decision to enroll in a Full Stack Web Development bootcamp with the goal of eventually getting
-                                onto a web development team.</p>
-                        
-                        </div>
-                    </div>
+                <hr />
+            </caption>
+            <div class="row">
+                <div class="col-sm-12">
+                    <img class="rounded px-md-4 mt-1 float-sm-none float-md-left bg-alt" alt="Kevin Brown pic"
+                        src="assets/images/SelfieSmallRotated.jpg">
+                    <p>I got into the software biz in 1991 back before the internet, before the introduction of Microsoft Windows and
+                        the mouse.</p>
+                
+                    <p>I worked as a Software Configuration Manager and Unix/QNX admin for Beckman Instruments and went to school at
+                        night working towards a degree in Computer Science. I
+                        eventually graduated from California State University of Fullerton, CA with my BS in CS and immediatlely went to
+                        work for TRW as a developer integrating satelite
+                        telemetry feeds into a health and monitoring system. In 1996 I became a member of the development team at
+                        Schriever AFB working on the user interface of the
+                        war gaming test bed which emulated the systems used in the Cheyene Mountain facility.</p>
+                
+                    <p>In 1997 I hired on with MCI in Colorado Springs and worked in the telecommunications field. My team created a
+                        voice recognition platform which
+                        used the Nuance speech engine. We created custom speech applications using Java Servlets, VoiceXML/GRXML/CSS,
+                        and javascript.</p>
+                
+                    <p>MCI eventually became part of Verizon and after almost 18 years I was involved in a RIFF. Two months later RELX
+                        Group hired me as their Interactive Voice
+                        Response (IVR) expert where I assumed responsibility for all of their self service IVR applications and
+                        integrations working with Java on the
+                        Avaya platform. We eventually migrated the applications from the in-house Avaya platform to the inContact cloud
+                        based platform.
+                        RELX Group then made the decision to move most of the inContact platform support to the Philippines and, after 4
+                        years with the company,
+                        I was again involed in a RIFF.</p>
+                
+                    <p>I then made the decision to enroll in a Full Stack Web Development bootcamp with the goal of eventually getting
+                        onto a web development team.</p>
+                    <div class="push"></div>
                 </div>
             </div>
-        </div>
-
-        <footer class="row"> <!-- Footer Row -->
-            <div class="col-sm-12">
-                <div class="demo-content col-md-12 text-center">Copyright &copy;</div>
-            </div>
+        </content>
         
-        </footer>
-    </div>
+    </main>
 
+    <footer class="row ml-sm-0 mr-sm-0">
+        <div class="copyright col-sm-12">
+            Copyright &copy;
+        </div>
+    </footer>
     
-
 </body>
 
 </html>
