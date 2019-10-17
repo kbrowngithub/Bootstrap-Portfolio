@@ -5,7 +5,7 @@
 }
 
 header {
-    width: 100%;
+    /* width: 100%; */
     padding: 0;
     margin: 0;
     background-color: #ffffff;
@@ -28,18 +28,18 @@ p {
     padding: 25px;
     text-align: center;
     float: left;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     margin-bottom: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#navbar {
+/* #navbar {
     margin: 0;
     float: right;
     padding-right: 0;
     padding-top: 40px;
     padding-bottom: 20px;
-}
+} */
 
 a:link, a:visited {
     color: gray;
